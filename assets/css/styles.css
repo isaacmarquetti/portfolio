@@ -96,15 +96,22 @@
     }
     
     .intro-content, .grid {
-        display: block;
+        display:block;
+        grid-template-columns: 1fr;
         padding-top: 12rem;
+    }
+
+    .social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 2rem;
     }
 
     .social-icons .social-icon {
         height: 6rem;
         width: 6rem;
         font-size: 2.2rem;
-        margin-right: 2.2rem;   
     }
 
     .menu-content {
@@ -148,7 +155,19 @@
     }
 
     .my-img {
-        margin: 2rem 3rem;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+
+    .my-img img{
+        width:25rem;
+    }
+
+    .grid p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    text-align: justify;
     }
 
     section div div article {
