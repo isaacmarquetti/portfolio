@@ -94,8 +94,10 @@
     h6 {
         font-size: 2rem;
     }
+    
     .intro-content, .grid {
-        grid-template-columns: 1fr;
+        display: block;
+        padding-top: 12rem;
     }
 
     .social-icons .social-icon {
@@ -111,9 +113,14 @@
     }
 
     .menu h1 {
-        font-size: 2.5rem; /*diminuir a fonte um pouco mais */
+        font-size: 2.8rem; /*diminuir a fonte um pouco mais */
         margin-left: 0;
         text-align: center;
+    }
+
+    .menu ul {
+        align-items: center;
+        justify-content: center;
     }
 
     .menu ul li a {
@@ -132,9 +139,24 @@
         height: 0.2rem;
     }
 
-    .menu-spacing {
-        height: 100px; 
+    .menu-atr {
+        align-items: center;
     }
+
+    .menu-spacing {
+        height: 5rem; 
+    }
+
+    .my-img {
+        margin: 2rem 3rem;
+    }
+
+    section div div article {
+        padding-top: 1rem;
+    }
+
+    
+    
 
    
 

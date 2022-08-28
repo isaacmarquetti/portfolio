@@ -28,6 +28,7 @@
 .menu ul {
     list-style: none; /*tirar a marcação de cada item*/
     display: flex; /*deixar os itens lado a lado*/
+    
 }
 
 .menu ul li a {
