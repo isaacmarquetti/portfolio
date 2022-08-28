@@ -83,4 +83,12 @@
     .intro-content, .grid {
         grid-template-columns: 1fr;
     }
+
+    .social-icons .social-icon {
+        height: 6rem;
+        width: 6rem;
+        font-size: 2.2rem;
+        margin-right: 2.2rem;
+        
+    }
 }
