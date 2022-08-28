@@ -80,18 +80,6 @@
 }
 
 @media (max-width: 900px) {
-    .intro-content, .grid {
-        grid-template-columns: 1fr;
-    }
-
-    .social-icons .social-icon {
-        height: 6rem;
-        width: 6rem;
-        font-size: 2.2rem;
-        margin-right: 2.2rem;
-        
-    }
-
     h3 {
         font-size: 4rem;
     }
@@ -106,4 +94,51 @@
     h6 {
         font-size: 2rem;
     }
+    .intro-content, .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .social-icons .social-icon {
+        height: 6rem;
+        width: 6rem;
+        font-size: 2.2rem;
+        margin-right: 2.2rem;   
+    }
+
+    .menu-content {
+        display:block;
+
+    }
+
+    .menu h1 {
+        font-size: 2.5rem; /*diminuir a fonte um pouco mais */
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .menu ul li a {
+        padding: 1rem; /* Afastar os itens */
+        font-size: 1.7rem;
+    }
+    
+    .main-content {
+        max-width: 120rem;
+        margin: 0 auto;
+        padding: 1rem 1rem;
+    }
+
+    .menu ul li a::after{
+        bottom: 0.5rem;
+        height: 0.2rem;
+    }
+
+    .menu-spacing {
+        height: 100px; 
+    }
+
+   
+
+
+
+    
 }
