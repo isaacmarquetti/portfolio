@@ -88,6 +88,7 @@
     }
 
     h5 {
+        padding-top: 2rem;
         font-size: 3rem;
     }
 
@@ -98,7 +99,7 @@
     .intro-content, .grid {
         display:block;
         grid-template-columns: 1fr;
-        padding-top: 14rem;
+        padding-top: 15rem;
     }
 
     .social-icons {
