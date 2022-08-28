@@ -1,0 +1,38 @@
+.menu-bg {
+    background-image: url('../img/menu-bg.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+.white-bg {
+    background: var(--light-gray-color);
+    color: var(--primary-color);
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 20rem var(--gapping);
+}
+
+.section {
+    min-height: 100vh; /*a section tem o tamanho da tela*/
+}
+
+.menu-spacing {
+    height: 65px; /*Espaço entre o menu e o conteúdo da primeira section*/
+}
+
+.text-content {
+    margin-top: 1rem;
+    color: var(--primary-color-text-p);
+}
+
+.text-content-title {
+    font-style: italic;
+    padding: 0;
+}
+
+.text-h5 {
+    line-height: 1;;
+}
