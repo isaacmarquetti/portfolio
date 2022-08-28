@@ -98,7 +98,7 @@
     .intro-content, .grid {
         display:block;
         grid-template-columns: 1fr;
-        padding-top: 12rem;
+        padding-top: 14rem;
     }
 
     .social-icons {
@@ -116,7 +116,6 @@
 
     .menu-content {
         display:block;
-
     }
 
     .menu h1 {
@@ -148,6 +147,8 @@
 
     .menu-atr {
         align-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
     .menu-spacing {
