@@ -83,6 +83,10 @@
     margin-right: 1rem;
 }
 
+.comp-content {
+    padding-top: 2.5rem;
+}
+
 @media (max-width: 1150px) {
     .menu h1 {
         font-size: 3rem; 
