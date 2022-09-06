@@ -1,16 +1,16 @@
 .menu {
-    position: fixed;
+    position: fixed; /*Fixada ao topo*/
     top: 0;
     left: 0;
     right: 0;
-    width: 100%;
-    z-index: 1;
+    width: 100%; 
+    z-index: 1;/*Sobre os itens da página*/
 }
 
 .menu-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /*Itens enfileirados*/
+    justify-content: space-between; /*Espaço entre eles*/
+    align-items: center; /*Alinhados ao centro*/
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -42,14 +42,14 @@
 .menu ul li a::after{
     content: '';
     position: absolute;
-    bottom: 1rem;
-    left: 25%;
-    width: 0;
-    height: 0.3rem;
+    bottom: 1rem; /*Alinha abaixo do texto*/
+    left: 25%; /*Posição da linha*/
+    width: 0;  /*Linha zerada*/
+    height: 0.3rem; /*Espessura da linha*/
     background: var(--secondary-color);
-    transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out; /*Transição*/
 }
 
 .menu ul li a:hover::after {
-    width: 50%;
+    width: 50%; /*Linha aumenta 50% ao passar em cima*/
 }

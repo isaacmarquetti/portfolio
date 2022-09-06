@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título do projeto -->
     <title>Portfólio</title>
+    <!-- Link do site font awesome para implementar icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css"
         integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,6 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/solid.min.css"
         integrity="sha512-tk4nGrLxft4l30r9ETuejLU0a3d7LwMzj0eXjzc16JQj+5U1IeVoCuGLObRDc3+eQMUcEQY1RIDPGvuA7SNQ2w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link para o google fonts para implementar as fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -22,18 +25,22 @@
         rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap" rel="stylesheet">
+    <!-- Setar os styles na pasta css -->
     <link rel="stylesheet" href="./assets/css/variables.css">
     <link rel="stylesheet" href="./assets/css/elements.css">
     <link rel="stylesheet" href="./assets/css/classes.css">
     <link rel="stylesheet" href="./assets/css/menu.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
+<!-- Usar aside como menu -->
 <aside class="menu menu-bg">
     <div class="main-content menu-content">
+        <!-- h1 com meu nome, como se fosse o título -->
         <h1>
             <a href="#sobre">Isaac Marquetti da Silva</a>
         </h1>
         <nav class="menu-atr">
+            <!-- lista para fazer o menu -->
             <ul>
                 <li><a href="#sobre">SOBRE</a></li>
                 <li><a href="#historico">HISTÓRICO</a></li>
@@ -43,13 +50,17 @@
         </nav>
     </div>
 </aside>
+<!-- Um 'menu spacing' para dar um espaço do menu para as sections -->
 <div class="menu-spacing"></div>
+<!-- Usar section para dividir o site, usando as classes para implementar o css -->
 <section id="sobre" class="white-bg section">
     <div class="main-content intro-content">
         <div class="grid">
+            <!-- Usando uma div para por uma foto para o currículo, e usando uma tag img -->
             <div class="my-img">
                 <img src="./assets/img/myphoto.jpg" alt="minha foto perfil">
             </div>
+            <!-- Usando icons para as redes sociais -->
             <div class="social-icons">
                 <a class="social-icon" href="https://www.linkedin.com/in/isaac-marquetti-6298a773/" target="_blank"><i
                         class="fab fa-linkedin-in"></i></a>
@@ -62,6 +73,7 @@
             <article>
                 <h3>SOBRE</h3>
             </article>
+            <!-- Usando a tag article para o texto do 'Sobre' -->
             <article>
                 <p class="text-content">Comprometido com o trabalho prestado, pontual e senso de cooperação. Me enxergo
                     como um profissional
@@ -74,9 +86,8 @@
             </article>
         </div>
     </div>
-
-
 </section>
+<!-- Segunda section -->
 <section id="historico" class="white-bg">
     <div class="main-content intro-content">
         <div class="grid">
@@ -101,6 +112,7 @@
             </article>
         </div>
 </section>
+<!-- Terceira section -->
 <section id="formacao" class="white-bg">
     <div class="main-content intro-content">
         <div class="grid">
@@ -123,12 +135,14 @@
             </article>
         </div>
 </section>
+<!-- Quarta section -->
 <section id="competencias" class="white-bg">
     <div class="main-content intro-content">
         <div class="grid">
             <article>
                 <h3>COMPETÊNCIAS</h3>
             </article>
+            <!-- Usado icons para fazer o check -->
             <div class="comp-content">
                 <h6><i class="fas fa-check comp-icon"></i> Python</h6>
                 <h6><i class="fas fa-check comp-icon"></i> Django</h6>

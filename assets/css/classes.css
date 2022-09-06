@@ -1,18 +1,18 @@
 .menu-bg {
-    background-image: url('../img/menu-bg.svg');
-    background-size: cover;
-    background-position: center center;
-    color: var(--white-color);
+    background-image: url('../img/menu-bg.svg'); /*usando um background em svg*/
+    background-size: cover; /*A imagem irá fica no container inteiro*/
+    background-position: center center; /*Centralizar a imagem*/
+    color: var(--white-color); /*Usando a cor branca na fonte*/
 }
 .white-bg {
-    background: var(--light-gray-color);
-    color: var(--primary-color);
+    background: var(--light-gray-color); /*Background da cor cinza*/
+    color: var(--primary-color);/*Fonte na cor primária*/
 }
 
 .main-content {
-    max-width: 120rem;
-    margin: 0 auto;
-    padding: 20rem var(--gapping);
+    max-width: 120rem; /*Usando um tamanho de container de 1200px*/
+    margin: 0 auto; /*Centralizando o container*/
+    padding: 20rem var(--gapping); /*Um padding de 200px*/
 }
 
 .section {
@@ -24,16 +24,16 @@
 }
 
 .text-content {
-    margin-top: 1rem;
-    color: var(--primary-color-text-p);
+    margin-top: 1rem; /*Uma margem do topo de 10px*/
+    color: var(--primary-color-text-p); /*A cor para o texto*/
 }
 
 .text-content-title {
-    font-style: italic;
+    font-style: italic; /*Usando itálico para o texto*/
     padding: 0;
 }
 
 .text-h5 {
-    line-height: 1;
-    padding-bottom: 0.8rem;
+    line-height: 1; /*Altura entre linhas*/
+    padding-bottom: 0.8rem; /*Um padding da base de 8px*/
 }
